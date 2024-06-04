@@ -22,3 +22,9 @@
 20. extensions - es7 - react/redux, tailwind CSS, prettier
 21. add Header component in index.js file above main component
 22. inside header component, we build three components namely -> left, center and right
+23. start styling header div -> read docs for each attribute used from tailwind css
+24. start designing left, add image and add image into domain inside next.config.js, add search bar and design all of these
+25. TailwindCSS is mobile first, therefore we add hidden first to the input tag and then the further parameters 
+26. start designing center
+27. flex-grow means it takes maximum amount of space. We want the center to take the maximum amount of space
+28. 
