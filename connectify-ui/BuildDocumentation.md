@@ -27,4 +27,12 @@
 25. TailwindCSS is mobile first, therefore we add hidden first to the input tag and then the further parameters 
 26. start designing center
 27. flex-grow means it takes maximum amount of space. We want the center to take the maximum amount of space
-28. 
+28. design right part of the header, call and design all logos
+29. create a sidebar component for the main tag in index.js
+30. include images and design appropriately 
+31. create component called sidebaritems.js for dynamic rendering of items in the sidebar
+32. pass Icons and value as props from Sidebar.js component to SidebarItems.js component
+33. use Icons and value props within the SidebarItems.js component
+34. in sidebar.js component, add icons and corresponding values for sidebaritems.js 
+35. nextauth implementation for google provider authentication
+36. 
