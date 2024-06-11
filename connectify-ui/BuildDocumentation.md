@@ -35,4 +35,17 @@
 33. use Icons and value props within the SidebarItems.js component
 34. in sidebar.js component, add icons and corresponding values for sidebaritems.js 
 35. nextauth implementation for google provider authentication
-36. 
+36. now to get the signed in user's name and profile picture for the header, we must use the useSession hook in header.js file
+37. make the image link and the name in Header.js a dynamic component and update the values
+38. make the image link and name dynamic in sidebar.js as well
+39. create a new component called Feed.js 
+40. feed must have two child components that are CreatePost.js and Posts.js 
+41. CreatePost.js has the user image, and post option where we use the form tag
+42. we need the useSession hook to obtain user image and also import Image tag from next/image
+43. add the video camera, photos and emojis icons and style them in CreatePost.js 
+44. create a new component called posts.js 
+45. create another component called post.js which is child component of posts.js 
+46. start designing post.js component
+47. call userphoto and username for posts dynamically
+48. use Date().toLocalString() API to call date and time 
+49. add paragraph text and call image through link for static post placeholder
