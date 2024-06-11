@@ -7,8 +7,10 @@ import { MdOutlineOndemandVideo, MdExpandMore } from "react-icons/md";
 import { AiFillShop, AiFillMessage, AiFillBell } from "react-icons/ai";
 import { IoGameController } from "react-icons/io5";
 import { CgMenuGridO } from "react-icons/cg";
+import { useSession, signOut } from "next-auth/react";
 
 const Header = () => {
+  const { data: session } = useSession();
   return (
     <div className="bg-white flex items-center p-2 shadow-md top-0 sticky z-50 h-16">
       {/* left */}
@@ -50,12 +52,14 @@ const Header = () => {
       {/* right */}
       <div className="flex items-center justify-end min-w-fit space-x-2">
         <Image
-          src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg"
+          onClick={signOut}
+          src={session?.user.image}
           height={40}
           width={40}
+          className="rounded-full cursor-pointer"
         ></Image>
         <p className="hidden xl:inline-flex font-semibold text-sm whitespace-nowrap p-3 max-w-xs">
-          Sriranjan Srikanth
+          {session?.user.name.split(" ")[0]}
         </p>
         <CgMenuGridO
           size={20}
