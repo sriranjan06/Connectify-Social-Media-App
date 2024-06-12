@@ -6,6 +6,7 @@ const nextConfig = {
       "upload.wikimedia.org",
       "lh3.googleusercontent.com",
       "images.pexels.com",
+      "www.pexels.com",
     ],
   },
 };

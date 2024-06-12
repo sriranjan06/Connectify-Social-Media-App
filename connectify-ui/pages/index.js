@@ -4,6 +4,7 @@ import Sidebar from "../components/Sidebar";
 import { getSession } from "next-auth/react";
 import Login from "../components/Login";
 import Feed from "../components/Feed";
+import RightSidebar from "../components/RightSidebar";
 
 export default function Home({ session }) {
   if (!session) return <Login />;
@@ -15,13 +16,14 @@ export default function Home({ session }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header></Header>
+      <Header />
       <main className="flex bg-gray-100">
         {/* Left Sidebar */}
         <Sidebar />
         {/* Feed (Create posts) */}
         <Feed />
         {/* Right Sidebar */}
+        <RightSidebar />
       </main>
     </div>
   );
