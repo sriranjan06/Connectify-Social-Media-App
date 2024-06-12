@@ -20,7 +20,7 @@ const CreatePost = () => {
           <input
             className="rounded-full h-12 flex-grow focus:outline-none font-medium bg-gray-100 px-4"
             type="text"
-            placeholder={`What's on your mind, ${session?.user.name}`}
+            placeholder={`What's on your mind, ${session?.user.name}?`}
           ></input>
           <button hidden></button>
         </form>

@@ -49,3 +49,11 @@
 47. call userphoto and username for posts dynamically
 48. use Date().toLocalString() API to call date and time 
 49. add paragraph text and call image through link for static post placeholder
+50. start designing footer part in Post.js component
+51. add and design the like, comment and share icons to fit the post
+52. start designing the right sidebar. GOTO index.js and create RightSidebar.js component and call it there
+53. right sidebar must include contacts with the video, search and altmore icons
+54. create component called Contacts.js 
+55. call Contacts.js component into RightSidebar.js component
+56. pass image source src and name as props through the Contacts.js components
+57. dynamically display name and image in contacts.js component
