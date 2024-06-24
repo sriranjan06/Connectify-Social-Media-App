@@ -23,23 +23,28 @@ const RightSidebar = () => {
       </div>
       <Contacts
         src="https://images.pexels.com/photos/853151/pexels-photo-853151.jpeg?auto=compress&cs=tinysrgb&w=600"
-        name="Sriranjan Srikanth"
+        name="Karthik Senthil"
+        status="Online"
       />
       <Contacts
         src="https://images.pexels.com/photos/445109/pexels-photo-445109.jpeg?auto=compress&cs=tinysrgb&w=600"
-        name="Sujith Tellakula"
+        name="Sagar Mohan"
+        status="Online"
       />
       <Contacts
-        src="https://images.pexels.com/photos/8517921/pexels-photo-8517921.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=279.825&fit=crop&h=453.05"
-        name="Venkat Nikhil Mangipudi"
+        src="https://images.pexels.com/photos/670720/pexels-photo-670720.jpeg?auto=compress&cs=tinysrgb&w=600"
+        name="Kaushal Bhat"
+        status="Offline"
       />
       <Contacts
         src="https://images.pexels.com/photos/746386/pexels-photo-746386.jpeg?auto=compress&cs=tinysrgb&w=600"
         name="Sriranjini Ramesh Vasista"
+        status="Online"
       />
       <Contacts
         src="https://images.pexels.com/photos/762080/pexels-photo-762080.jpeg?auto=compress&cs=tinysrgb&w=600"
-        name="Shamanthak Hegde"
+        name="Sujith Tellakula"
+        status="Offline"
       />
     </div>
   );
