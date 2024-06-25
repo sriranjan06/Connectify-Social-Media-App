@@ -7,6 +7,7 @@ const nextConfig = {
       "lh3.googleusercontent.com",
       "images.pexels.com",
       "www.pexels.com",
+      "assets.vercel.com",
     ],
   },
 };

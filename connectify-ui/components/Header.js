@@ -16,7 +16,7 @@ const Header = () => {
       {/* left */}
       <div className="flex min-w-fit">
         <Image
-          src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg"
+          src="https://assets.vercel.com/image/upload/front/favicon/vercel/152x152.png"
           height={40}
           width={40}
         ></Image>

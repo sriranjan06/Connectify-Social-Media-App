@@ -128,4 +128,7 @@
 126. posts = postEntities.stream().map((postEntity) -> Post.builder.id().name().build()).collect(Collectors.toList())
 127. return posts. This is how we get all the data from the database in the form of postEntity.findAll()
 128. then we store all the data into an array called posts of object datatype and the way to do this is via stream(). map() is used to map entity and various attributes. 
+129. const CONNECTIFY_ENDPOINT = "http://localhost:8080/api/v1/post"; which is the port where the backend api is running
+130. instead of push in postSlice.js, adding unshift will make the latest post appear on top of the stack
+131.  
 
