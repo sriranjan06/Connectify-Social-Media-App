@@ -118,9 +118,7 @@ Connectify is a full-stack social media web application built using Next.js for 
 - Open your browser and navigate to `http://localhost:3000` to use the application
 - Sign in using Google
 - Create, view, and delete posts
-
-## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request.
-
+- This project is created solely for learning purposes. This project was inspired by Shabbir Dawoodi's Facebook Clone application. The following is a link to his YouTube video - https://www.youtube.com/watch?v=EHDlebVv6zw&t=16157s
+- 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
