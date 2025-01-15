@@ -148,4 +148,4 @@ Connectify is a full-stack social media web application built using Next.js for 
 ## Usage
 - Open your browser and navigate to http://localhost:3000 to use the application.
 - Sign in using Google.
-- reate, view, and delete posts.
+- Create, view, and delete posts.
